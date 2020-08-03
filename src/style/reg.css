@@ -1,0 +1,334 @@
+.head-nav {
+    background-color: #f2f2f2;
+}
+
+.head-nav .container {
+    width: 1200px;
+    height: 35px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 34px;
+}
+
+.head-nav .container .nav-left {
+    width: 353px;
+    float: left;
+}
+
+.head-nav .container .nav-left .sc {
+    float: left;
+}
+
+.head-nav .container .nav-left .sc a .ico-star {
+    background-image: url(../images/regico.png);
+    background-position: 0px -318px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+}
+
+.head-nav .container .nav-left .gz {
+    float: left;
+    margin-left: 22px;
+}
+
+.head-nav .container .nav-left .gz .ico-weixin {
+    background-image: url(../images/regico.png);
+    background-position: -374px -131px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+}
+
+.head-nav .container .nav-left .flower {
+    float: left;
+    margin-left: 22px;
+}
+
+.head-nav .container .nav-left .flower .ico-app {
+    background-image: url(../images/regico.png);
+    background-position: -294px -171px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+}
+
+.head-nav .container .nav-right {
+    float: right;
+    margin-left: 36px;
+}
+
+.head-nav .container .nav-right .line {
+    float: left;
+    overflow: hidden;
+    width: 1px;
+    height: 12px;
+    margin: 11px 1px;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+.head-nav .container .nav-right li {
+    float: left;
+    padding: 0 8px;
+}
+
+.head-nav .container .nav-right .shopcar .ico-car {
+    background-image: url(../images/regico.png);
+    background-position: -340px -284px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+    margin-right: 2px;
+}
+
+.head-nav .container .nav-right .shopcar .count {
+    color: #ff6a00;
+}
+
+header {
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    float: left;
+    width: 500px;
+    height: 28px;
+    margin-top: 44px;
+    background: url(../images/logo.png) no-repeat;
+    overflow: hidden;
+}
+
+.search {
+    float: left;
+    width: 320px;
+    margin-top: 40px;
+}
+
+.search .searchbox {
+    width: 400px;
+    height: 40px;
+}
+
+.search .searchbox .input-a {
+    height: 32px;
+    width: 240px;
+    border: 1px solid #d2d2d2;
+    border-color: #ff6a00;
+    font-size: 14px;
+    color: #d2d2d2;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.search .searchbox .input-b .btn-a {
+    font-size: 16px;
+    padding: 5px 24px;
+    color: #ffffff;
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+    padding: 5px 24px;
+    border: none;
+    line-height: 23px;
+    margin-left: -4px;
+}
+
+.service {
+    float: right;
+    margin-top: 40px;
+    width: 260px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+}
+
+.service .ico-phone {
+    background-image: url(../images/regico.png);
+    background-position: -380px -50px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+    margin-right: 5px;
+}
+
+.service .online {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.service .online .ico-online {
+    background-image: url(../images/regico.png);
+    background-position: -297px -133px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 6px;
+    margin-right: 8px;
+    float: left;
+}
+
+.service .line {
+    color: #d9d9d9;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.wrap {
+    height: 474px;
+    background-image: url(../images/reg.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.wrap .container {
+    width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrap .container .reg-box {
+    position: relative;
+    height: 438px;
+    border-radius: 8px;
+    float: right;
+    background: #fff;
+    margin-top: 18px;
+    overflow: hidden;
+    width: 360px;
+}
+
+.wrap .container .reg-box .reg-tabs {
+    border-bottom: 1px solid #E9ECF0;
+}
+
+.wrap .container .reg-box .reg-tabs li {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    line-height: 56px;
+    font-size: 18px;
+    text-align: center;
+    color: #232628;
+    cursor: pointer;
+    float: left;
+}
+
+section {
+    width: 100%;
+    height: 474px;
+    background-image: url("https://img02.hua.com/pc/assets/img/login_bg.jpg");
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.login-box {
+    background-color: pink;
+    width: 360px;
+    position: relative;
+    height: 438px;
+    border-radius: 8px;
+    float: right;
+    background: #fff;
+    margin-top: 18px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-box h2 {
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    margin-left: 5px;
+    background-color: #fff;
+    border: 1px solid #E9ECF0;
+    height: 28px;
+    line-height: 28px;
+}
+
+.login-box .tishi {
+    font-size: 12px;
+    color: red;
+    height: 12px;
+}
+
+.login-box p:nth-child(2n) {
+    margin-top: 10px;
+}
+
+.login-box .denglu {
+    background-color: orange;
+    cursor: pointer;
+    width: 250px;
+    height: 36px;
+    color: #fff;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.footer-nav {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer-nav b {
+    color: #d9d9d9;
+}
+
+.footer-nav a {
+    display: inline-block;
+    margin: 0 32px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .images {
+    text-align: center;
+}
+
+footer .images img {
+    margin: 0 5px;
+}
+
+footer .images .last-img {
+    width: 36px;
+    height: 49px;
+}
+
+footer .footer-last {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer .footer-last b {
+    color: #d9d9d9;
+}

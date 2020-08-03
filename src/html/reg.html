@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/reg.css">
+
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <div class="head-nav">
+        <div class="container">
+            <ul class="nav-left">
+
+                <li class="sc">
+                    <a> <span class="ico-star"></span>收藏鲜花网(hua.com)</a>
+                </li>
+                <li class="gz"> <span class="ico-weixin"></span>关注微信</li>
+                <li class="flower"><span class="ico-app"></span>花礼网app</li>
+            </ul>
+            <ul class="nav-right">
+                <a href="login.html">
+                    <li>你好，请登录</li>
+                </a>
+                <li>注册
+                    <li class="line">|</li>
+                </li>
+                <li>订单查询
+                    <li class="line">|</li>
+                </li>
+                <li>我的花礼
+                    <li class="line">|</li>
+                </li>
+                <li>客服服务
+                    <li class="line">|</li>
+                </li>
+                <li class="shopcar">购物车
+                    <span class="ico-car"></span>
+                    <span class="count">(0)<g/span>
+                    <li class="line">|</li>
+                </li>
+                <li>中国鲜花礼品网:中国鲜花网领先品牌</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 头部 -->
+    <header>
+        <div class="logo">
+            <h1><a href="#" class="logo"></a></h1>
+        </div>
+        <div class="search">
+            <form name="search-a" method="get" action="/search/">
+                <div class="searchbox">
+                    <input type="text" class="input-a" placeholder="商品关键词" name="key">
+                    <span class="input-b">
+                    <button id="search-btn" class="btn-a">搜索</button>
+                </span>
+        </div>
+        </form>
+    </div>
+    <div class="service">
+        <span class="ico-phone"></span>400-889-8188
+        <span class="line">|</span>
+        <div class="online">
+            <a href="javascript:void(0);"><span class=" ico-online"></span>在线客服</a>
+        </div>
+    </div>
+
+    </header>
+    <!-- 注册表 -->
+    <section class="wrap">
+        <div class="container">
+            <div class="container">
+                <form action="../../interface/reg.php" method="post">
+                    <div class="login-box">
+                        <h2>用户注册</h2>
+                        <p>用户账号: <input type="text" name="username" class="username"></p>
+                        <p class="tishi"></p>
+                        <p>用户密码: <input type="password" name="password" class="password"></p>
+                        <p class="tishi"></p>
+                        <p>用户邮箱: <input type="password" name="email" class="email"></p>
+                        <p class="tishi"></p>
+                        <p>输入电话: <input type="text" name="phone" class="phone"></p>
+                        <p class="tishi"></p>
+                        <p>输入地址: <input type="text" name="add" class="add"></p>
+                        <p class="tishi"></p>
+                        <input type="submit" value="注册" name="submit" class="denglu">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <div class="footer-nav">
+        <a href="">首页</a> <b>|</b>
+        <a href="" target="_blank">关于我们</a> <b>|</b>
+        <a href="" target="_blank">媒体报道</a> <b>|</b>
+        <a href="" target="_blank">联系方式</a> <b>|</b>
+        <a href="" target="_blank">企业团购</a> <b>|</b>
+        <a href="" target="_blank">花店入驻</a><b>|</b>
+        <a href="" target="_blank">友情链接</a> <b>|</b>
+        <a href="" target="_blank">在线补款</a> <b>|</b>
+        <a class="last-child" href="" target="_blank">为什么选择中国鲜花礼品网</a>
+    </div>
+    <footer>
+        <div class="images">
+            <img src="../images/slogan.png">
+            <img src="../images/100.jpg">
+            <img src="../images/bico1.jpg">
+            <img src="../images/govIcon.gif" class="last-img">
+        </div>
+
+        <p class="footer-last">
+            <a href="">中国花卉协会会员</a>
+            <a href="">中国电子商务协会会员</a> ICP经营许可证：
+            <a href="">粤B2-20050744</a>
+            <b>|</b>
+            <a href="" target="_blank">粤ICP备09171662号</a> 粤公网安备44030502000373号 Copyright © 2005-2020
+        </p>
+        <p>
+            <a href="">www.hua.com</a>
+            <span> 深圳市百易信息技术有限公司<span>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,1352 @@
+header .money {
+  background: url(../images/money.png) 50% 0px no-repeat;
+  height: 80px;
+}
+
+header .head-nav {
+  background-color: #f2f2f2;
+}
+
+header .head-nav .container {
+  width: 1200px;
+  height: 35px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 12px;
+  margin: 0 auto;
+  line-height: 34px;
+}
+
+header .head-nav .container .nav-left {
+  width: 353px;
+  float: left;
+}
+
+header .head-nav .container .nav-left .sc {
+  float: left;
+}
+
+header .head-nav .container .nav-left .sc a .ico-star {
+  width: 14px;
+  height: 14px;
+  margin-top: 9px;
+  margin-right: 4px;
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 -21px;
+  vertical-align: top;
+}
+
+header .head-nav .container .nav-left .gz {
+  float: left;
+  margin-left: 22px;
+}
+
+header .head-nav .container .nav-left .gz .ico-weixin {
+  width: 14px;
+  height: 14px;
+  margin-top: 9px;
+  margin-right: 4px;
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -24px -21px;
+  vertical-align: top;
+}
+
+header .head-nav .container .nav-left .flower {
+  float: left;
+  margin-left: 22px;
+}
+
+header .head-nav .container .nav-left .flower .ico-app {
+  width: 14px;
+  height: 14px;
+  margin-top: 9px;
+  margin-right: 4px;
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -48px -21px;
+  vertical-align: top;
+}
+
+header .head-nav .container .nav-right {
+  float: right;
+  margin-left: 36px;
+}
+
+header .head-nav .container .nav-right li {
+  float: left;
+  padding: 0 16px;
+}
+
+header .head-nav .container .nav-right .shopcar .count {
+  color: #ff6a00;
+}
+
+.header-logo {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header-logo .logo {
+  display: block;
+  width: 238px;
+  height: 60px;
+  margin-top: 30px;
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 -248px;
+  float: left;
+}
+
+.header-logo .search {
+  float: left;
+  width: 962px;
+  margin-top: 40px;
+}
+
+.header-logo .search .searchbox {
+  width: 500px;
+  height: 40px;
+  margin-left: 160px;
+}
+
+.header-logo .search .searchbox .input-a {
+  height: 50px;
+  width: 440px;
+  border: 2px solid #d2d2d2;
+  border-color: #ff6a00;
+  font-size: 14px;
+  color: #d2d2d2;
+  padding: 6px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.header-logo .search .searchbox .input-b .btn-a {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 5px 24px;
+  color: #ffffff;
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+  padding: 13px 34px;
+  border: none;
+  line-height: 23px;
+  margin-left: -109px;
+  border-radius: 30px;
+}
+
+.header-logo .service {
+  float: right;
+  margin-top: -28px;
+  width: 260px;
+  height: 31px;
+  line-height: 31px;
+  font-size: 14px;
+}
+
+.header-logo .service .ico-phone {
+  background-image: url(../images/regico.png);
+  background-position: -380px -50px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-top: 6px;
+  float: left;
+  margin-right: 5px;
+}
+
+.header-logo .service .online {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.header-logo .service .online .ico-online {
+  background-image: url(../images/regico.png);
+  background-position: -297px -133px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-top: 6px;
+  margin-right: 8px;
+  float: left;
+}
+
+.header-logo .service .line {
+  color: #d9d9d9;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header-logo .hotwords {
+  color: #B4BABF;
+  margin-left: 460px;
+  padding-top: 100px;
+}
+
+.header-logo .hotwords a {
+  margin-left: 8px;
+}
+
+.search_nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 52px;
+}
+
+.search_nav .container {
+  display: flex;
+}
+
+.search_nav .container .search_nav-nav {
+  display: flex;
+  margin-left: 25px;
+}
+
+.search_nav .container .search_nav-nav li {
+  margin: 0 14px;
+  line-height: 52px;
+}
+
+.search_nav .container .search_nav-nav li a {
+  color: #232628;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-all {
+  position: relative;
+  width: 240px;
+  height: 52px;
+  border-radius: 12px 12px 0 0;
+  background: linear-gradient(90deg, #ff734c 0%, #ff3d12 100%);
+}
+
+.nav-all .nav-all-p {
+  padding-left: 24px;
+  font-size: 18px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+}
+
+.nav-all .nav-all-p span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: -68px -102px;
+  margin-top: 14px;
+  margin-right: 4px;
+}
+
+.nav-all .ico-list {
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: -68px -102px;
+  width: 24px;
+  height: 24px;
+  margin-top: 14px;
+  margin-right: 4px;
+}
+
+.dropdown-cate {
+  position: absolute;
+  top: 52px;
+  padding-top: 16px;
+  left: 0;
+  background: url("https://img02.hua.com/pc/pimg/home/black-bg.png");
+  z-index: 999;
+  width: 240px;
+}
+
+.dropdown-cate .cate-item {
+  padding: 9px 0px 9px 20px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-cate .cate-item .cate-item-p {
+  margin-top: 2px;
+  padding-left: 4px;
+  padding-right: 28px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.dropdown-cate .cate-item .cate-item-p a {
+  color: #fff;
+}
+
+.dropdown-cate .cate-item .cate-item-p a span {
+  position: absolute;
+  left: 205px;
+}
+
+.dropdown-cate .cate-item .cate-item-ul {
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.dropdown-cate .cate-item .cate-item-ul li {
+  line-height: 24px;
+  padding: 0 4px;
+  float: left;
+}
+
+.dropdown-cate .cate-item .cate-item-ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.right-box {
+  display: none;
+  position: absolute;
+  width: 960px;
+  height: 478px;
+  background-color: #fff;
+  z-index: 9999;
+  left: 240px;
+  top: 1px;
+  padding: 20px 36px;
+  box-sizing: border-box;
+}
+
+.right-box p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #232628;
+}
+
+.right-box .right-box-list a {
+  display: inline-block;
+  width: 108px;
+  margin-right: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.right-box .right-box-list a img {
+  width: 68px;
+}
+
+.right-box .right-box-list a p {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #71797F;
+}
+
+.cate-item-hover:hover {
+  background-color: #fff;
+}
+
+.cate-item-hover:hover .cate-item-p a {
+  color: #000000;
+}
+
+.cate-item-hover:hover .cate-item-p span {
+  display: none;
+}
+
+.cate-item-hover:hover .cate-item-ul li a {
+  color: #71797F;
+}
+
+.cate-item-hover:hover .right-box {
+  display: block;
+}
+
+.banner {
+  height: 480px;
+  position: relative;
+  cursor: pointer;
+}
+
+.banner ol {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.banner ol li {
+  width: 8px;
+  height: 8px;
+  margin: 0 6px;
+  border-radius: 50%;
+  background-color: #000000;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.banner ol .active {
+  background-color: orange;
+  opacity: 1;
+}
+
+.banner .banner_content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.banner .banner_content .item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.banner .banner_content .active {
+  opacity: 1;
+}
+
+.banner .banner_button {
+  position: absolute;
+}
+
+.banner .banner_button .ico-buttonL {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  width: 52px;
+  height: 52px;
+  background-position: 0 -186px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  left: 442px;
+  top: 217px;
+}
+
+.banner .banner_button .ico-buttonR {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -62px -186px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 1304px;
+  top: 217px;
+}
+
+.server {
+  height: 60px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.server ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.server ul a {
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  line-height: 60px;
+}
+
+.server ul a .icon-server-01 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -102px -102px;
+  height: 24px;
+  width: 24px;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+
+.server ul a .icon-server-02 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -136px -102px;
+  height: 24px;
+  width: 24px;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+
+.server ul a .icon-server-03 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -204px -102px;
+  height: 24px;
+  width: 24px;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+
+.server ul a .icon-server-04 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -238px -102px;
+  height: 24px;
+  width: 24px;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+
+.server ul a .icon-server-05 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -170px -102px;
+  height: 24px;
+  width: 24px;
+  margin-top: 18px;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+
+.scene {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scene .scene_list, .scene .scene_list div {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.scene .scene_list .scene_list_two {
+  margin-top: 16px;
+}
+
+.scene .scene_list .scene_list_last {
+  display: flex;
+}
+
+.scene .scene_list .scene_list_last .scene_list_last_right {
+  margin-left: 16px;
+}
+
+.flower-loveplus {
+  background-color: #F7F9FA;
+}
+
+.flower-love, .flower-parent, .newcake .cake, .flower-nodie, .new-gifts .gifts, .newcomment .comment {
+  background-color: #F7F9FA;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.flower-love .container, .flower-parent .container, .newcake .cake .container, .flower-nodie .container, .new-gifts .gifts .container, .newcomment .comment .container {
+  padding: 40px 0 60px;
+}
+
+.flower_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flower_title h3 {
+  line-height: 30px;
+}
+
+.flower_title h3 a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.flower_title h3 span {
+  padding-left: 15px;
+  margin-left: 16px;
+  font-size: 20px;
+  line-height: 24px;
+  border-left: 1px solid #71797F;
+}
+
+.flower_title a {
+  font-size: 14px;
+  line-height: 30px;
+  color: #71797F;
+}
+
+.flower_title a .icon-arrow-right {
+  background: url(../images/loginsprite.png);
+  background: no-repeat;
+  display: block;
+  background-position: -68px 0;
+  width: 12px;
+  height: 12px;
+  margin-top: 9px;
+  margin-left: 6px;
+  float: right;
+}
+
+.fl-products {
+  display: inline-block;
+  width: 912px;
+  vertical-align: top;
+}
+
+.fl-products-item {
+  display: inline-block;
+  width: 212px;
+  margin-left: 13px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  vertical-align: top;
+}
+
+.fl-products-item .product-content {
+  padding: 10px 8px 14px;
+  text-align: center;
+  color: #232628;
+  text-align: center;
+}
+
+.fl-products-item .product-content .product-title {
+  max-width: 100%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.fl-products-item .product-content .product-price {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.fl-products-item .product-content .product-price .product-sell {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #71797F;
+  line-height: 16px;
+}
+
+.fl-products-item .img-box {
+  width: 100%;
+  height: 228px;
+  overflow: hidden;
+}
+
+.fl-products-item .img-box img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  text-decoration: none;
+}
+
+.fl-products-item img:hover {
+  transition-duration: 0.8s;
+  transform: scale(1.08, 1.08);
+}
+
+.flower_content {
+  margin-top: 14px;
+  display: flex;
+}
+
+.flower_content .F_C_left {
+  position: relative;
+}
+
+.flower_content .F_C_left .F_C_button {
+  position: absolute;
+  background-image: url("../images/image09.png");
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  height: 160px;
+}
+
+.flower_content .F_C_left .F_C_button a {
+  display: block;
+  width: 240px;
+  height: 60px;
+  margin: 74px auto 0;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  color: #F7F9FA;
+  font-size: 22px;
+  line-height: 56px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.flower_content .F_C_left .F_C_button a .icon-dotarrow {
+  background: url(../images/loginsprite.png);
+  background: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 12px;
+  background-position: 0 -72px;
+}
+
+.flower-parentplus {
+  background-color: #E9ECF0;
+}
+
+.flower-parent, .newcake .cake {
+  background-color: #E9ECF0;
+}
+
+.flower-nodieplus {
+  background-color: #F7F9FA;
+}
+
+.flower-nodie {
+  background-color: #F7F9FA;
+}
+
+.newcake {
+  background-color: #e9ecf0;
+}
+
+.newcake .cake {
+  padding-top: 10px;
+  padding-bottom: 85px;
+}
+
+.newcake .cake .cakecontainer {
+  padding: 40px, 0, 60px, 0;
+}
+
+.newcake .fl-productcake {
+  display: inline-block;
+  width: 1216px;
+  vertical-align: top;
+}
+
+.newcake .fl-productcake .fl-products-item {
+  width: 208px;
+  padding: 8px 8px 0;
+  margin: 16px 8px 0;
+  border-radius: 8px;
+}
+
+.cake_content {
+  margin-top: 14px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.where_cake {
+  width: 1200px;
+  margin: 16px 0 16px;
+  display: flex;
+}
+
+.where_cake .where_box {
+  display: flex;
+  width: 288px;
+  height: 48px;
+  background: linear-gradient(90deg, #ff734c 0%, #ff3d12 100%);
+  border-radius: 0 100px 100px 0;
+  color: #fff;
+  line-height: 48px;
+  font-size: 18px;
+}
+
+.where_cake .where_box .icon-city, .where_cake .where_box .coke_select .icon-city-go {
+  background: url(../images/loginsprite.png);
+  background: no-repeat;
+  display: inline-block;
+  background-position: -26px -46px;
+  width: 16px;
+  height: 16px;
+  margin: 16px 8px 0 24px;
+}
+
+.where_cake .where_box .coke_select {
+  display: flex;
+  margin-left: 42px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+.where_cake .where_box .coke_select .icon-city-go {
+  background-position: 0 0;
+  margin: 18px 0 0 10px;
+  transition: all 0.3s;
+}
+
+.where_cake .where_box .coke_select .icon-city-go:hover {
+  transform: rotate(90deg);
+}
+
+.where_cake ul {
+  display: flex;
+  padding-left: 20px;
+}
+
+.where_cake ul li {
+  margin: 0 12px;
+  font-size: 16px;
+  line-height: 48px;
+}
+
+.where_cake ul li a {
+  color: #232628;
+}
+
+.where_cake ul li a:hover {
+  color: orange;
+}
+
+.cake_list {
+  padding-bottom: 28px;
+}
+
+.cake_list ul {
+  display: flex;
+}
+
+.cake_list ul li {
+  width: 168px;
+  height: 124px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.cake_list ul li a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.cake_list ul li a img {
+  width: 108px;
+  height: 60px;
+  margin-top: 24px;
+  vertical-align: middle;
+}
+
+.cake_list ul li a p {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #71797F;
+}
+
+.cake_list ul .cake_list_frist {
+  margin-left: 0;
+}
+
+.cakeyangzi {
+  width: 1216px;
+  overflow: hidden;
+}
+
+.cakeyangzi .F_C_list-item {
+  box-sizing: border-box;
+  width: 227px;
+  padding: 8px 8px 0;
+  margin: 16px 8px 0;
+  border-radius: 8px;
+}
+
+.new-gifts {
+  background-color: #F7F9FA;
+}
+
+.new-gifts .gifts .giftsproducts {
+  width: 1215px;
+  margin-top: -60px;
+  margin-right: 6px;
+  padding-bottom: 22px;
+}
+
+.new-gifts .gifts .giftsproducts .fl-products-item {
+  width: 208px;
+  padding: 8px 8px 0;
+  margin: 16px 8px 0;
+  border-radius: 8px;
+}
+
+.cake_content {
+  padding: 14px 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.cake_content .gifts-choose {
+  padding-left: 12px;
+  display: flex;
+}
+
+.cake_content .gifts-choose a {
+  font-size: 14px;
+  padding: 0 10px;
+  color: #71797F;
+  box-sizing: border-box;
+}
+
+.cake_content .gifts-brands {
+  display: flex;
+  margin-top: 22px;
+  padding-left: 26px;
+}
+
+.cake_content .gifts-brands a {
+  width: 116px;
+  text-align: center;
+  color: #71797F;
+  margin-right: 50px;
+  margin-bottom: 6px;
+}
+
+.cake_content .gifts-brands a img {
+  width: 100%;
+}
+
+.cake_content .gifts-brands a p {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.newcomment {
+  background-color: #E9ECF0;
+}
+
+.newcomment .comment {
+  background-color: #E9ECF0;
+  padding: 32px 0 32px 0;
+}
+
+.newcomment .comment_content {
+  padding-top: 14px;
+}
+
+.newcomment .comment_content .f-comments-item {
+  display: inline-block;
+  width: 272px;
+  height: 176px;
+  margin: 0 6px 8px;
+  padding: 6px;
+  color: #232628;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.newcomment .comment_content .f-comments-item a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.newcomment .comment_content .f-comments-item-l {
+  display: inline-block;
+  width: 138px;
+  height: 100%;
+  padding: 8px;
+  vertical-align: top;
+}
+
+.newcomment .comment_content .f-comments-item-l .f-comments-item-user {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.newcomment .comment_content .f-comments-item-l .f-comments-item-user img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.newcomment .comment_content .f-comments-item-l .f-comments-item-info {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  padding-top: 8px;
+}
+
+.newcomment .comment_content .f-comments-item-l .f-comments-item-content {
+  height: 60px;
+  font-size: 14px;
+  line-height: 20px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+}
+
+.newcomment .comment_content .f-comments-item-r {
+  display: inline-block;
+  width: 114px;
+  height: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+  vertical-align: top;
+  line-height: 160px;
+  text-align: center;
+}
+
+.newcomment .comment_content .f-comments-item-r img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.newinformation {
+  background-color: #F7F9FA;
+}
+
+.newinformation .information {
+  background-color: #F7F9FA;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.newinformation .information .container {
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+.newinformation .information .hotnews {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.newinformation .information .hotnews .hotnews-title {
+  display: flex;
+  padding: 0 32px;
+  height: 53px;
+  justify-content: space-between;
+  line-height: 53px;
+  border-bottom: 1px solid #E9ECF0;
+}
+
+.newinformation .information .hotnews .hotnews-title h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.newinformation .information .hotnews .hotnews-title a {
+  color: #71797F;
+  font-size: 14px;
+}
+
+.hotnews-content {
+  padding: 8px 0;
+}
+
+.hotnews-content ul {
+  list-style: disc;
+}
+
+.hotnews-content ul li {
+  width: 400px;
+  float: left;
+  line-height: 28px;
+  padding-left: 42px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.hotnews-content ul li a {
+  font-size: 12px;
+  color: #232628;
+}
+
+.hotnews-content ul li:before {
+  position: absolute;
+  content: "";
+  left: 32px;
+  top: 12px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #B4BABF;
+}
+
+.information-server {
+  padding: 20px 0;
+  border-bottom: 1px solid #fff;
+  overflow: hidden;
+}
+
+.information-server li {
+  font-size: 20px;
+  margin-right: 16px;
+  margin: 20px 0;
+  flex-grow: 3;
+  line-height: 40px;
+  width: 323px;
+  float: left;
+}
+
+.information-server li a {
+  display: flex;
+  color: #232628;
+}
+
+.information-server li:nth-child(4n) {
+  width: 197px;
+}
+
+.information-server .icon-information1 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: 0 -136px;
+  margin-right: 16px;
+}
+
+.information-server .icon-information2 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: -50px -136px;
+  margin-right: 16px;
+}
+
+.information-server .icon-information3 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: -100px -136px;
+  margin-right: 16px;
+}
+
+.information-server .icon-information4 {
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: -150px -136px;
+  margin-right: 16px;
+}
+
+.information_list {
+  padding-top: 36px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.information_list .information-kh, .information_list .information-infors, .information_list .information-city {
+  width: 197px;
+  overflow: hidden;
+}
+
+.information_list .information-kh h4, .information_list .information-infors h4, .information_list .information-city h4 {
+  font-size: 16px;
+}
+
+.information_list .information-kh ul, .information_list .information-infors ul, .information_list .information-city ul {
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.information_list .information-kh ul li, .information_list .information-infors ul li, .information_list .information-city ul li {
+  width: 68px;
+  float: left;
+  line-height: 24px;
+}
+
+.information_list .information-kh ul li a, .information_list .information-infors ul li a, .information_list .information-city ul li a {
+  color: #71797F;
+}
+
+.information-infors li {
+  float: none !important;
+  width: 90% !important;
+}
+
+.information-callme {
+  width: 259px;
+}
+
+.information-callme h4 {
+  font-size: 16px;
+}
+
+.information-callme .callme_content {
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.information-callme .callme_content p {
+  line-height: 20px;
+  color: #71797F;
+}
+
+.information-callme .callme-kf {
+  width: 100px;
+  height: 32px;
+  margin-top: 4px;
+  border-radius: 16px;
+  background-color: #FF734C;
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.information-callme .callme-kf a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.information-callme .callme-kf a span {
+  display: block;
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-top: 6px;
+  margin-right: 6px;
+  background-position: -330px -72px;
+}
+
+.information-qrcode {
+  width: 322px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.information-qrcode .qrcode-item {
+  text-align: center;
+}
+
+.information-qrcode .qrcode-item img {
+  width: 120px;
+  height: 120px;
+}
+
+.information-qrcode .qrcode-item p {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232628;
+}
+
+/* footer */
+footer {
+  background-color: #232628;
+}
+
+footer .footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 46px 0;
+}
+
+footer .footer-container .footer-nav {
+  color: #fff;
+}
+
+footer .footer-container .footer-nav a {
+  font-size: 16px;
+  margin-right: 24px;
+}
+
+footer .footer-container .footer-nav b {
+  margin-right: 24px;
+}
+
+footer .footer-container .footer-middle {
+  margin-top: 30px;
+}
+
+footer .footer-container .footer-middle .icon-beian {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 2px;
+  background: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -360px -72px;
+  vertical-align: top;
+}
+
+footer .footer-container .footer-middle .huali {
+  margin-top: 5px;
+}
+
+footer .footer-container .footer-middle .footer-image {
+  margin-top: 7px;
+}
+
+footer .footer-container .footer-middle .footer-image .icon-wang {
+  width: 149px;
+  height: 40px;
+  margin-right: 12px;
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -518px -136px;
+}
+
+footer .footer-container .footer-middle .footer-image .icon-x {
+  height: 40px;
+  margin-right: 12px;
+  width: 123px;
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -676px -136px;
+}
+
+footer .footer-container .footer-middle .footer-image .icon-y {
+  height: 40px;
+  width: 33px;
+  margin-right: 12px;
+  display: inline-block;
+  background-image: url(../images/loginsprite.png);
+  background-repeat: no-repeat;
+  background-position: -809px -136px;
+}
+
+footer .footer-container .footer-middle .footer-image img {
+  height: 40px;
+  width: 37px;
+  background-color: #fff;
+}
+
+footer .footer-container .footer-link {
+  margin-top: 10px;
+}

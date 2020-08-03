@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $.ajax({
+                type: "get",
+                url: "http://www.rootbk.cn:3000/interface",
+                data: {
+                    app: 'city'
+                },
+                dataType: "jsonp",
+                success: function(res) {
+                    addProvince(res.data);
+                    $('#province').on('change', function() {
+                        addCity(res.data, $(this).val());
+                        addArea(res.data, `${$(this).val()},0`);
+                    });
+                    $('#city').on('change', function() {
+                        addArea(res.data, $(this).val());
+                    });
+                    $('#province').trigger('change');
+                }
+            });
+
+            function addProvince(data) {
+                let province = $('#province');
+                data.forEach((elm, i) => {
+                    province.append(`<option value="${i}">${elm.name}</option>`);
+                });
+            }
+
+            function addCity(data, provinceIndex) {
+                let city = $('#city').empty();
+                data[provinceIndex].city.forEach((elm, i) => {
+                    city.append(`<option value="${provinceIndex},${i}">${elm.name}</option>`);
+                });
+            }
+
+            function addArea(data, cityIndex) {
+                let area = $('#area').empty();
+                cityIndex = cityIndex.split(',');
+                data[cityIndex[0]].city[cityIndex[1]].area.forEach(elm => {
+                    area.append(`<option>${elm}</option>`);
+                });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    请选择所在省份:<select id="province"></select> 请选择所在城市:<select id="city"></select> 请选择所在县区:<select id="area"></select>
+
+</body>
+
+</html>

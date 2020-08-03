@@ -1,0 +1,422 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+i {
+    font-style: normal;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: 0;
+}
+
+img {
+    display: inline-block;
+    height: auto;
+}
+
+a {
+    border: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+em {
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ico {
+    margin-right: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-star,
+.ico-weixin,
+.ico-mobile,
+.ico-cart,
+.ico-phone,
+.ico-headset,
+.ico-goback {
+    background-image: url("../images/regico.png");
+    background-repeat: no-repeat;
+}
+
+
+/* 顶部导航 */
+
+.zhuce-nav {
+    font-size: 12px;
+    min-width: 1200px;
+    height: 35px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f2f2f2;
+}
+
+.zhuce-nav a:hover {
+    color: orange;
+}
+
+.zhuce-nav-left {
+    float: left;
+}
+
+.zhuce-nav a {
+    position: relative;
+    color: #737373;
+    padding: 0 8px;
+}
+
+.zhuce-nav .box-weixin,
+.box-app {
+    display: none;
+    position: absolute;
+    width: 160px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.zhuce-nav .box-weixin img,
+.box-app img {
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+}
+
+.zhuce-nav .box-weixin p,
+.box-app p {
+    margin-bottom: 10px;
+}
+
+.nav-weixin:hover,
+.nav-app:hover {
+    background-color: #fff;
+}
+
+.nav-weixin:hover .box-weixin {
+    display: block;
+    z-index: 9999;
+}
+
+.nav-app:hover .box-app {
+    display: block;
+}
+
+.zhuce-nav li {
+    line-height: 34px;
+    float: left;
+}
+
+.ico {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ico-star {
+    background-position: 0px -318px;
+}
+
+.ico-weixin {
+    background-position: -374px -131px;
+}
+
+.ico-mobile {
+    background-position: -294px -171px;
+}
+
+.zhuce-nav-right {
+    float: right;
+}
+
+.login {
+    padding-right: 6px;
+}
+
+.hellow {
+    padding-right: 6px;
+    display: none;
+}
+
+.login a {
+    display: inline-block;
+    padding-right: 2px;
+}
+
+.nav-shu {
+    float: left;
+    overflow: hidden;
+    width: 1px;
+    height: 12px;
+    margin: 11px 1px;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+.zhuce-nav .menu {
+    position: relative;
+}
+
+.zhuce-nav .menu:hover {
+    background-color: #fff;
+}
+
+.zhuce-nav .menu:hover .menu-list {
+    display: block;
+}
+
+.zhuce-nav .menu a .jiahao {
+    margin-left: 4px;
+}
+
+.zhuce-nav .menu-list {
+    display: none;
+    position: absolute;
+    width: 78px;
+    padding: 0 0 10px;
+    text-align: center;
+    top: 100%;
+    float: left;
+    z-index: 1000;
+    left: 0;
+    min-width: 78px;
+    background-color: #fff;
+}
+
+.zhuce-nav .menu-list a {
+    line-height: 24px;
+    display: block;
+}
+
+.ico-cart {
+    background-position: -340px -284px;
+}
+
+.nav-last {
+    margin-left: 5px;
+    color: #737373;
+}
+
+.gouwuche {
+    position: relative;
+}
+
+.gouwuche .text-primary {
+    color: orange;
+}
+
+.zhuce-nav .gouwuche .xiaogouwuche {
+    background-color: #fff;
+    display: none;
+    left: -180px;
+    top: 100%;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+}
+
+.zhuce-nav .cartitem {
+    display: flex;
+    line-height: 17px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.zhuce-nav .cartitem img {
+    width: 50px;
+    height: 53px;
+}
+
+.zhuce-nav .cartitem .item-title {
+    width: 120px;
+    height: 54px;
+    font-size: 12px;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.zhuce-nav .cartitem span {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background-color: #d9d9d9;
+}
+
+.zhuce-nav .cartitem .itemprice {
+    color: #ff6a00;
+}
+
+.zhuce-nav .jiesuan {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.zhuce-nav .jiesuan .number {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+.zhuce-nav .jiesuan .zongjia {
+    color: #ff6a00;
+    font-size: 18px;
+}
+
+.zhuce-nav .jiesuan .qujiezhang {
+    color: #fff;
+    background-color: #ff6a00;
+}
+
+.gouwuche:hover {
+    background-color: #fff;
+}
+
+.gouwuche:hover .xiaogouwuche {
+    display: block;
+}
+
+
+/* 搜索引擎 */
+
+header {
+    height: 120px;
+}
+
+header .logo {
+    float: left;
+    width: 500px;
+    height: 64px;
+    margin-top: 28px;
+    background: url(../images/logo.png) left center no-repeat;
+}
+
+header .search {
+    float: left;
+    width: 320px;
+    margin-top: 40px;
+    border: 1px solid #ff6a00;
+}
+
+.search-input input {
+    padding: 6px;
+}
+
+.search-input button {
+    padding: 6px 24px;
+    float: right;
+    border: 1px solid #ff6a00;
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+.ico-phone {
+    background-position: -380px -46px;
+}
+
+.ico-headset {
+    background-position: -294px -131px;
+}
+
+.service {
+    float: right;
+    margin-top: 40px;
+    position: relative;
+    color: #737373;
+}
+
+.service span {
+    width: 30px;
+    height: 30px;
+}
+
+.service a {
+    font-size: 12px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #d9d9d9;
+    color: #737373;
+}
+
+
+/* footer */
+
+.footer-nav {
+    font-size: 12px;
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+    color: #d9d9d9;
+}
+
+.footer-nav a {
+    display: inline-block;
+    margin: 0 32px;
+    color: #737373;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #737373;
+}
+
+footer p a {
+    color: #737373;
+}

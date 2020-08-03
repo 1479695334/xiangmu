@@ -1,0 +1,260 @@
+@charset 'utf8';
+//头部导航
+.head-nav {
+    background-color: #f2f2f2;
+    .container {
+        width: 1200px;
+        height: 35px;
+        border-bottom: 1px solid #e6e6e6;
+        font-size: 12px;
+        margin: 0 auto;
+        line-height: 34px;
+        .nav-left {
+            width: 353px;
+            float: left;
+            .sc {
+                float: left;
+                a {
+                    .ico-star {
+                        background-image: url(../images/regico.png);
+                        background-position: 0px -318px;
+                        background-repeat: no-repeat;
+                        width: 24px;
+                        height: 24px;
+                        display: block;
+                        margin-top: 6px;
+                        float: left;
+                    }
+                }
+            }
+            .gz {
+                float: left;
+                margin-left: 22px;
+                .ico-weixin {
+                    background-image: url(../images/regico.png);
+                    background-position: -374px -131px;
+                    background-repeat: no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    display: block;
+                    margin-top: 6px;
+                    float: left;
+                }
+            }
+            .flower {
+                float: left;
+                margin-left: 22px;
+                .ico-app {
+                    background-image: url(../images/regico.png);
+                    background-position: -294px -171px;
+                    background-repeat: no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    display: block;
+                    margin-top: 6px;
+                    float: left;
+                }
+            }
+        }
+        .nav-right {
+            float: right;
+            margin-left: 36px;
+            .line {
+                float: left;
+                overflow: hidden;
+                width: 1px;
+                height: 12px;
+                margin: 11px 1px;
+                padding: 0;
+                background-color: #d9d9d9;
+            }
+            li {
+                float: left;
+                padding: 0 8px;
+            }
+            .shopcar {
+                .ico-car {
+                    background-image: url(../images/regico.png);
+                    background-position: -340px -284px;
+                    background-repeat: no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    display: block;
+                    margin-top: 6px;
+                    float: left;
+                    margin-right: 2px;
+                }
+                .count {
+                    color: #ff6a00
+                }
+            }
+        }
+    }
+}
+
+//头部
+header {
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    .logo {
+        float: left;
+        width: 500px;
+        height: 28px;
+        margin-top: 44px;
+        background: url(../images/logo.png) no-repeat;
+        // background-repeat: no-repeat;
+        overflow: hidden;
+    }
+}
+
+.search {
+    float: left;
+    width: 320px;
+    margin-top: 40px;
+    .searchbox {
+        width: 400px;
+        height: 40px;
+        .input-a {
+            height: 32px;
+            width: 240px;
+            border: 1px solid #d2d2d2;
+            border-color: #ff6a00;
+            font-size: 14px;
+            color: #d2d2d2;
+            padding: 6px;
+            box-sizing: border-box;
+        }
+        .input-b {
+            .btn-a {
+                font-size: 16px;
+                padding: 5px 24px;
+                color: #ffffff;
+                background-color: #ff6a00;
+                border-color: #ff6a00;
+                padding: 5px 24px;
+                border: none;
+                line-height: 23px;
+                margin-left: -4px;
+            }
+        }
+    }
+}
+
+.service {
+    float: right;
+    margin-top: 40px;
+    // border: 1px solid black;
+    width: 260px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    .ico-phone {
+        background-image: url(../images/regico.png);
+        background-position: -380px -50px;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        display: block;
+        margin-top: 6px;
+        float: left;
+        margin-right: 5px;
+    }
+    .online {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 12px;
+        .ico-online {
+            background-image: url(../images/regico.png);
+            background-position: -297px -133px;
+            background-repeat: no-repeat;
+            width: 24px;
+            height: 24px;
+            display: block;
+            margin-top: 6px;
+            margin-right: 8px;
+            float: left;
+        }
+    }
+    .line {
+        color: #d9d9d9;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+// 注册表单
+.wrap {
+    height: 474px;
+    background-image: url(../images/reg.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    .container {
+        width: 1220px;
+        margin: 0 auto;
+        overflow: hidden;
+        .reg-box {
+            position: relative;
+            height: 438px;
+            border-radius: 8px;
+            float: right;
+            background: #fff;
+            margin-top: 18px;
+            overflow: hidden;
+            width: 360px;
+            .reg-tabs {
+                border-bottom: 1px solid #E9ECF0;
+                li {
+                    position: relative;
+                    // display: inline-block;
+                    width: 50%;
+                    height: 100%;
+                    line-height: 56px;
+                    font-size: 18px;
+                    text-align: center;
+                    color: #232628;
+                    cursor: pointer;
+                    float: left;
+                }
+                // li.active {
+                //     color: #FF734C;
+                // }
+            }
+        }
+    }
+}
+
+// footer
+.footer-nav {
+    margin: 30px auto;
+    text-align: center;
+    b {
+        color: #d9d9d9;
+    }
+    a {
+        display: inline-block;
+        margin: 0 32px;
+    }
+}
+
+footer {
+    text-align: center;
+    .images {
+        text-align: center;
+        img {
+            margin: 0 5px;
+        }
+        .last-img {
+            width: 36px;
+            height: 49px;
+        }
+    }
+    .footer-last {
+        text-align: center;
+        margin-top: 30px;
+        b {
+            color: #d9d9d9;
+        }
+    }
+}

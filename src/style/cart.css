@@ -1,0 +1,180 @@
+/* 购物车 */
+
+a {
+    color: inherit;
+}
+
+.shopcart {
+    width: 870px;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+}
+
+.shopcart-head {
+    /*购物车表头*/
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.check {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    /* background-image: url("https://img02.hua.com/pc/assets/img/ico_unchecked.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 34px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+.shopcart-head .check {
+    margin-top: 10px;
+}
+
+.shopcart li .active {
+    /* 选中之后的样式 覆盖*/
+    background-image: url("https://img02.hua.com/pc/assets/img/ico_checkout.png");
+}
+
+.shopcart .shopcart-head li {
+    font-size: 14px;
+    color: #737373;
+    font-weight: bold;
+}
+
+.shopcart .shopcart-head .mingCheng {
+    width: 432px;
+}
+
+.shopcart .shopcart-head .price,
+.shopcart .shopcart-head .num,
+.shopcart .shopcart-head .caoZuo {
+    width: 106px;
+    text-align: center;
+}
+
+.shopcart-body {
+    /*购物车数据 */
+    padding: 0 20px;
+}
+
+.shopcart-body .OneData {
+    font-size: 14px;
+    padding: 15px 0;
+    display: flex;
+    text-align: center;
+    height: 88px;
+    line-height: 88px;
+    border-top: 1px solid #D9D9D9;
+}
+
+.shopcart-body .OneData:first-child {
+    border: none;
+}
+
+.shopcart-body .imgBox {
+    width: 100px;
+}
+
+.shopcart-body .imgBox img {
+    width: 87px;
+    height: 88px;
+    display: block;
+}
+
+.shopcart-body .title {
+    width: 332px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #737373;
+}
+
+.shopcart-body .One-price {
+    width: 120px;
+}
+
+.shopcart-body .One-num {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopcart-body .One-num input {
+    width: 40px;
+    text-indent: 17px;
+    height: 24px;
+    border: 1px solid#d9d9d9;
+    ;
+}
+
+.shopcart-body .One-num a {
+    width: 20px;
+    height: 24px;
+    border: 1px solid#d9d9d9;
+    line-height: 24px;
+}
+
+.shopcart-body .delete {
+    color: #737373;
+    margin-left: 22px;
+}
+
+.account {
+    /* 结算*/
+    width: 870px;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    height: 52px;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 12px;
+    line-height: 52px;
+    justify-content: space-between;
+}
+
+.account .account-l {
+    width: 710px;
+    padding: 0 20px;
+}
+
+.account .account-l a {
+    color: #737373;
+}
+
+.account .account-l .ico-goback {
+    display: block;
+    width: 22px;
+    height: 22px;
+    float: left;
+    background-position: -68px -318px;
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+.account .account-l p {
+    float: right;
+}
+
+.account .jiesuan {
+    width: 120px;
+    background-color: #ff6A00;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.account .account-num {
+    font-size: 18px;
+    color: #ff6A00;
+}

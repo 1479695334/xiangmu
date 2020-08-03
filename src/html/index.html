@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千峰鲜花店</title>
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/quick.css">
+    <script src="../js/require.js" data-main="../js/main.index.js"></script>
+
+
+    <body>
+
+        <header>
+            <a href="">
+                <div class="money"></div>
+            </a>
+            <div class="head-nav">
+                <div class="container">
+                    <ul class="nav-left">
+                        <li class="sc">
+                            <a> <span class="ico-star"></span>收藏鲜花网(hua.com)</a>
+                        </li>
+                        <li class="gz"> <span class="ico-weixin"></span>关注微信</li>
+                        <li class="flower"><span class="ico-app"></span>花礼网app</li>
+                    </ul>
+                    <ul class="nav-right">
+                        <a href="login.html">
+                            <li>你好，请登录</li>
+                        </a>
+                        <a href="reg.html">
+                            <li>注册 </li>
+                        </a>
+                        <li>客服服务</li>
+                        <a href="cart.html">
+                            <li class="shopcar">购物车
+                                <span class="count">(0)</span></li>
+                        </a>
+                        </li>
+                        <li>中国鲜花礼品网:中国鲜花网领先品牌</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="header-logo">
+            <h1>
+                <a href="#" class="logo"></a>
+            </h1>
+            <div class="search">
+                <form name="search-a" method="get" action="/search/">
+                    <div class="searchbox">
+                        <input type="text" class="input-a" placeholder="商品搜索" name="key">
+                        <span class="input-b">
+                    <button id="search-btn" class="btn-a">搜索</button>
+                </span>
+                    </div>
+                    <div class="service">
+                        <span class="ico-phone"></span>400-889-8188
+                        <span class="line">|</span>
+                        <div class="online">
+                            <a href="javascript:void(0);"><span class=" ico-online"></span>在线客服</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="hotwords">
+                <a href="">红玫瑰</a>
+                <a href="">永生花</a>
+                <a href="">生日鲜花</a>
+                <a href="">礼品卡</a>
+            </div>
+
+        </div>
+        <!-- 列表 -->
+        <div class=search_nav>
+            <div class=container>
+                <div class=nav-all>
+                    <p class=nav-all-p><span class="ico-list"></span>所有分类</p>
+                    <div class=dropdown-cate>
+                        <div class=cate-item>
+                            <p class=cate-item-p><a>鲜花用途</a></p>
+                            <ul class=cate-item-ul>
+                                <li><a href=list.html>爱情鲜花</a></li>
+                                <li><a href=list.html>生日鲜花</a></li>
+                                <li><a href=list.html>友情鲜花</a></li>
+                                <li><a href=list.html>问候长辈</a></li>
+                                <li><a href=list.html>探病慰问</a></li>
+                                <li><a href=list.html>道歉鲜花</a></li>
+                                <li><a href=list.html>祝贺鲜花</a></li>
+                                <li><a href=list.html>婚庆鲜花</a></li>
+                                <li><a href=list.html>商务鲜花</a></li>
+                            </ul>
+                        </div>
+                        <div class=cate-item>
+                            <p class=cate-item-p><a>鲜花花材</a></p>
+                            <ul class=cate-item-ul>
+                                <li><a>玫瑰</a></li>
+                                <li><a>康乃锡</a></li>
+                                <li><a>百合</a></li>
+                                <li><a>向日葵</a></li>
+                                <li><a>扶郎</a></li>
+                                <li><a>郁金香</a></li>
+                                <li><a>马蹄莲</a></li>
+                            </ul>
+                        </div>
+                        <div class="cate-item cate-item-hover">
+                            <p class=cate-item-p><a>永生花<span>></span></a></p>
+                            <ul class=cate-item-ul>
+                                <li><a>永生瓶花</a></li>
+                                <li><a>经典花盒</a></li>
+                                <li><a>特色永生花</a></li>
+                            </ul>
+                            <div class=right-box>
+                                <p class=right-box-p>永生花类别</p>
+                                <div class=right-box-list>
+                                    <a href=list.html><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_sort_Vase.png>
+                                        <p>永生瓶花</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_sort_Box.png>
+                                        <p>经典花盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_sort_Special.png>
+                                        <p>特色永生花</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_sort_GiantRose.png>
+                                        <p>巨型玫瑰</p>
+                                    </a>
+                                </div>
+                                <p class=right-box-p>对象</p>
+                                <div class=right-box-list>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_use_Girlfriend.png>
+                                        <p>送女友</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_use_Boyfriend.png>
+                                        <p>送男友</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_use_Elder.png>
+                                        <p>送长辈</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_ppf_use_Friend.png>
+                                        <p>送朋友</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cate-item cate-item-hover">
+                            <p class=cate-item-p><a>蛋糕<span>></span></a></p>
+                            <ul class=cate-item-ul>
+                                <li><a>元祖</a></li>
+                                <li><a>幸福西饼</a></li>
+                                <li><a>21cake</a></li>
+                                <li><a>诺心蛋糕</a></li>
+                                <li><a>窝夫小子</a></li>
+                                <li><a>BONCAKE</a></li>
+                            </ul>
+                            <div class=right-box>
+                                <p class=right-box-p>蛋糕品牌</p>
+                                <div class=right-box-list>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_xfxb.png>
+                                        <p>幸福西饼</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+
+                                </div>
+                                <p class=right-box-p>蛋糕城市</p>
+                                <div class=right-box-list>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cate-item cate-item-hover">
+                            <p class=cate-item-p><a>礼品/公仔/绿植<span>></span></a></p>
+                            <div class=right-box>
+                                <p class=right-box-p>礼品品牌</p>
+                                <div class=right-box-list>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_SWAROVSKI.png>
+                                        <p>施华洛世奇</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_SWAROVSKI.png>
+                                        <p>施华洛世奇</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_SWAROVSKI.png>
+                                        <p>施华洛世奇</p>
+                                    </a>
+                                    <a><img src="../images/image16.png">
+                                        <p>Hello Kitty</p>
+                                    </a>
+                                </div>
+                                <p class=right-box-p>礼品类别</p>
+                                <div class=right-box-list>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_sort_Musicbox.png>
+                                        <p>音乐盒</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cate-item ">
+                            <p class=cate-item-p><a><span></span></a></p>
+                            <div class=right-box>
+                                <p class=right-box-p></p>
+                                <p class=right-box-p></p>
+                                <div class=right-box-list>
+
+                                    <p></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class=search_nav-nav>
+                    <li><a>鲜花</a></li>
+                    <li><a>永生花</a></li>
+                    <li><a>蛋糕</a></li>
+                    <li><a>礼品</a></li>
+                    <li><a>巧克力</a></li>
+                    <li><a>花语大全</a></li>
+                    <li><a>企业团购</a></li>
+                    <li><a>设计师臻选鲜花</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="banner">
+            <ol class="banner_list">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <div class="banner_content">
+                <!-- <img src="https://img02.hua.com/slider/20_birthday_pc.jpg" class="item"> -->
+                <div class="item active" style="background-image: url('https://img02.hua.com/slider/20_birthday_pc.jpg');">
+                    <!-- <a href="../js/lib/lunbo.js"></a> -->
+                </div>
+                <div class="item" style="background-image: url('https://img02.hua.com/slider/18_shuangzi_pc.jpg?v2');">
+                    <!-- <a href="../js/lib/lunbo.js"></a> -->
+                </div>
+                <div class="item" style="background-image: url('https://img02.hua.com/slider/20_youflower_pc.jpg');">
+                    <!-- <a href="../js/lib/lunbo.js"></a> -->
+                </div>
+                <div class="item" style="background-image: url('https://img02.hua.com/slider/20_longtou.jpg');">
+                    <!-- <a href="../js/lib/lunbo.js"></a> -->
+                </div>
+            </div>
+            <div class="banner_button">
+                <div class="ico-buttonL"></div>
+                <div class="ico-buttonR"></div>
+            </div>
+        </div>
+
+        <div class="server container">
+            <ul>
+                <li><a><span class=icon-server-01></span>鲜花电商认证龙头企业</a></li>
+                <li><a><span class=icon-server-02></span>15年品牌</a></li>
+                <li><a><span class=icon-server-03></span>3小时全国送花</a></li>
+                <li><a><span class=icon-server-04></span>200%退赔承诺</a></li>
+                <li><a><span class=icon-server-05></span>最近371267条评论</a></li>
+            </ul>
+        </div>
+
+        <!-- scene -->
+        <div class="scene container">
+            <div class=scene_list>
+                <a><img src="../images/image01.jpg"></a>
+            </div>
+            <div class=scene_list>
+                <div>
+                    <a><img src="../images/image02.jpg"></a>
+                </div>
+                <div class=scene_list_two>
+                    <a><img src="../images/image03.jpg"></a>
+                </div>
+            </div>
+            <div class=scene_list>
+                <a><img src="../images/image04.jpg"></a>
+            </div>
+            <div class=scene_list>
+                <div class=scene_list_last>
+                    <div>
+                        <a><img src="../images/image05.png"></a>
+                    </div>
+                    <div class=scene_list_last_right>
+                        <a><img src="../images/image06.jpg"></a>
+                    </div>
+                </div>
+                <div class=scene_list_two>
+                    <a><img src="../images/image07.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 爱情鲜花 -->
+        <div class="flower-loveplus">
+            <div class=flower-love>
+                <div class=container>
+                    <div class=flower_title>
+                        <h3><a>爱情鲜花</a> <span>送 · 让你怦然心动的人</span></h3><a>更多爱情鲜花<span class=icon-arrow-right></span></a></div>
+                    <div class=flower_content>
+                        <div class=F_C_left>
+                            <div>
+                                <a><img src="../images/image08.png"></a>
+                            </div>
+                            <div class=F_C_button>
+                                <a>爱情鲜花专区<span class=icon-dotarrow></span></a>
+                            </div>
+                        </div>
+
+
+                        <div class="fl-products">
+                            <!-- <div class="fl-products-item">
+                                <a href="/product/9012450.html?huaPid=homepage-f101" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img height="240" width="220" src="" title="" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 韩式系列/初心不负</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012450">226</span>
+                                        </p>
+                                        <p class="product-sell">已售 7.0万 件</p>
+                                    </div>
+                                </a>
+                            </div> -->
+                            <!-- <div class="fl-products-item">
+                                <a href="/product/9012455.html?huaPid=homepage-f102" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012455.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012455.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 韩式系列/亲爱的你</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012455">368</span>
+                                        </p>
+                                        <p class="product-sell">已售 1755 件</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="fl-products-item">
+                                <a href="/product/9010966.html?huaPid=homepage-f103" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 一往情深</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9010966">239</span>
+                                        </p>
+                                        <p class="product-sell">已售 12.4万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012243.html?huaPid=homepage-f104" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012243.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012243.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 恋恋情深</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012243">198</span>
+                                        </p>
+                                        <p class="product-sell">已售 7.7万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012177.html?huaPid=homepage-f105" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012177.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012177.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 不变的承诺</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012177">539</span>
+                                        </p>
+                                        <p class="product-sell">已售 6.5万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012451.html?huaPid=homepage-f106" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012451.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012451.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 韩式系列/公主的假日</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012451">216</span>
+                                        </p>
+                                        <p class="product-sell">已售 3773 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9010011.html?huaPid=homepage-f107" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9010011.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9010011.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 一心一意</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9010011">138</span>
+                                        </p>
+                                        <p class="product-sell">已售 12.5万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012449.html?huaPid=homepage-f108" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012449.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012449.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">爱情 · 满天星/特大号-浅紫</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012449">388</span>
+                                        </p>
+                                        <p class="product-sell">已售 198 件</p>
+                                    </div>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- 送长辈花 -->
+        <div class="flower-parentplus">
+            <div class=flower-parent>
+                <div class=container>
+                    <div class=flower_title>
+                        <h3><a>送长辈鲜花</a> <span>赠 · 父母/恩师/长辈</span></h3><a>更多送长辈鲜花<span class=icon-arrow-right></span></a></div>
+                    <div class=flower_content>
+                        <div class=F_C_left>
+                            <div>
+                                <a><img src=https://img02.hua.com/pc/pimg/home/home_floor_elder.png></a>
+                            </div>
+                            <div class=F_C_button><a>送长辈鲜花专区<span class=icon-dotarrow></span></a></div>
+                        </div>
+                        <!-- <div class=F_C_list></div> -->
+                        <div class="fl-products">
+
+                            <!-- <div class="fl-products-item">
+                                <a href="/product/9012461.html?huaPid=homepage-f201" target="_blank">
+                                    <div class="img-box enlarge" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012461.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012461.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 韩式系列/温柔以待</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012461">239</span>
+                                        </p>
+                                        <p class="product-sell">已售 3596 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012092.html?huaPid=homepage-f202" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012092.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012092.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 母爱</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012092">162</span>
+                                        </p>
+                                        <p class="product-sell">已售 1.9万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012452.html?huaPid=homepage-f203" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012452.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012452.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 韩式系列/一路向阳</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012452">296</span>
+                                        </p>
+                                        <p class="product-sell">已售 6.4万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012332.html?huaPid=homepage-f204" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012332.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012332.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 留住好时光</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012332">245</span>
+                                        </p>
+                                        <p class="product-sell">已售 1.1万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012072.html?huaPid=homepage-f205" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012072.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012072.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 向日葵之歌</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012072">189</span>
+                                        </p>
+                                        <p class="product-sell">已售 8324 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9012204.html?huaPid=homepage-f206" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9012204.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9012204.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 幸福万年长</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9012204">346</span>
+                                        </p>
+                                        <p class="product-sell">已售 3823 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9010963.html?huaPid=homepage-f207" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9010963.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9010963.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 最思念</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9010963">198</span>
+                                        </p>
+                                        <p class="product-sell">已售 2330 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/9010904.html?huaPid=homepage-f208" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/9010904.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/9010904.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">送长辈 · 青青子衿</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="9010904">280</span>
+                                        </p>
+                                        <p class="product-sell">已售 9041 件</p>
+                                    </div> -->
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- 永生花 -->
+        <div class="flower-nodieplus">
+            <div class=flower-nodie>
+                <div class=container>
+                    <div class=flower_title>
+                        <h3><a>永生花</a> <span>许 · 她一生承诺</span></h3><a>更多永生花<span class=icon-arrow-right></span></a></div>
+                    <div class=flower_content>
+                        <div class=F_C_left>
+                            <div>
+                                <a><img src=https://img02.hua.com/pc/pimg/home/home_floor_song.jpg></a>
+                            </div>
+                            <div class=F_C_button><a>永生花专区<span class=icon-dotarrow></span></a></div>
+                        </div>
+
+                        <div class="fl-products">
+
+                            <div class="fl-products-item">
+                                <a href="/product/1073100.html?huaPid=homepage-f301" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073100.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073100.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 彩虹下的约定/花的嫁纱银项链</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073100">368</span>
+                                        </p>
+                                        <p class="product-sell">已售 4880 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073033.html?huaPid=homepage-f302" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073033.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073033.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 一生一世</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073033">198</span>
+                                        </p>
+                                        <p class="product-sell">已售 1.3万 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073120.html?huaPid=homepage-f303" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073120.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073120.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 时光的花</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073120">368</span>
+                                        </p>
+                                        <p class="product-sell">已售 2198 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073264.html?huaPid=homepage-f304" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073264.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073264.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 一鹿(路)有你永生花小夜灯</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073264">288</span>
+                                        </p>
+                                        <p class="product-sell">已售 670 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073184.html?huaPid=homepage-f305" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073184.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073184.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 我如此爱你-口红款YSL</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073184">598</span>
+                                        </p>
+                                        <p class="product-sell">已售 259 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073244.html?huaPid=homepage-f306" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073244.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073244.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 永生花带灯+蓝牙音箱/浪漫粉</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073244">398</span>
+                                        </p>
+                                        <p class="product-sell">已售 1841 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073247.html?huaPid=homepage-f307" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073247.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073247.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 花好月圆永生花台灯</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073247">298</span>
+                                        </p>
+                                        <p class="product-sell">已售 1175 件</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="fl-products-item">
+                                <a href="/product/1073271.html?huaPid=homepage-f308" target="_blank">
+                                    <div class="img-box" href="/product/9010966.html">
+                                        <img data-original="https://img01.hua.com/uploadpic/newpic/1073271.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1073271.jpg_220x240.jpg" style="display: inline;">
+                                    </div>
+                                    <div class="product-content">
+                                        <p class="product-title">永生花 · 爱的小屋永生花灯光蓝牙音箱/浪漫粉</p>
+                                        <p class="product-price">
+                                            <span class="price-sign">¥</span>
+                                            <span class="price-num" data-pp="1073271">388</span>
+                                        </p>
+                                        <p class="product-sell">已售 84 件</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newcake">
+            <div class=cake>
+                <div class=" cakecontainer">
+                    <div class=flower_title>
+                        <h3><a>蛋糕</a> <span>一起品味甜蜜时光</span></h3><a>更多蛋糕<span class=icon-arrow-right></span></a></div>
+                    <div class=cake_content>
+                        <div class=where_cake>
+                            <div class=where_box><span class=icon-city></span>配送城市
+                                <div class=coke_select>请选择<span class=icon-city-go></span></div>
+                            </div>
+                            <ul>
+                                <li><a>北京</a></li>
+                                <li><a>上海</a></li>
+                                <li><a>深圳</a></li>
+                                <li><a>杭州</a></li>
+                                <li><a>广州</a></li>
+                                <li><a>金华</a></li>
+                                <li><a>合肥</a></li>
+                                <li><a>武汉</a></li>
+                                <li><a>南京</a></li>
+                                <li><a>西安</a></li>
+                                <li><a>长沙</a></li>
+                                <li><a>成都</a></li>
+                                <li><a>沈阳</a></li>
+                                <li><a>江苏</a></li>
+                                <li><a>更多</a></li>
+                            </ul>
+                        </div>
+                        <div class=cake_list>
+                            <ul>
+                                <li class=cake_list_frist>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_ganso.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_xfxb.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_21cake.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_boncake.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_waffleboy.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src=https://img02.hua.com/m/category/Classification/m_category_cake_cakeboss.png>
+                                        <p>元祖蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image11.jpg">
+                                        <p>Mcake蛋糕</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                                <li class=cake_list_frist>
+                                    <a><img src="../images/image10.png">
+                                        <p>心之和蛋糕</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fl-productcake">
+                    <div class="fl-products-item">
+                        <a href="/product/5301151.html?huaPid=homepage-f401" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img src="../images/image33.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/5301151.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">元祖蛋糕 · 青蛙来了鲜奶蛋糕（6寸）</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="5301151">198</span>
+                                </p>
+                                <p class="product-sell">已售 28 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="../images/image34.jpg" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img src="../images/image34.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/5602045.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">幸福西饼蛋糕 · 浪漫果纷蛋糕(约2磅)</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="5602045">228</span>
+                                </p>
+                                <p class="product-sell">已售 791 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="../images/image35.jpg" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img src="../images/image35.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/5301134.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">cakeboss蛋糕 · 花仙密境（6寸）</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="5301134">299</span>
+                                </p>
+                                <p class="product-sell">已售 66 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/5901084.html?huaPid=homepage-f404" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img src="../images/image36.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/5901084.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">诺心蛋糕 · 环游世界蛋糕（2-4人食）</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="5901084">258</span>
+                                </p>
+                                <p class="product-sell">已售 115 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/5181042.html?huaPid=homepage-f405" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img src="../images/image37.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/5181042.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">BONCAKE蛋糕 · 星云（7寸）</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="5181042">238</span>
+                                </p>
+                                <p class="product-sell">已售 250 件</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 礼品 -->
+        <div class="new-gifts">
+            <div class=gifts>
+                <div class=container>
+                    <div class=flower_title>
+                        <h3><a>礼品</a> <span>给她·最美好的礼物</span></h3><a>更多礼品<span class=icon-arrow-right></span></a></div>
+                    <div class=cake_content>
+                        <div class=gifts-choose><a>水晶内雕/3D激光内雕水晶</a> <a>进口/泰国保鲜花</a> <a>金箔玫瑰/金箔画</a> <a>精品音乐盒/八音盒</a> <a>生日礼品</a> <a>约会/求爱礼品</a> <a>结婚礼品</a> <a>感谢/祝福礼品</a> <a>拜访/探望礼品</a> <a>结婚纪念日礼品</a></div>
+                        <div class=gifts-brands>
+                            <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_SWAROVSKI.png>
+                                <p>施华洛世奇</p>
+                            </a>
+                            <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_GlamEver.png>
+                                <p>施华洛世奇</p>
+                            </a>
+                            <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_Dior.png>
+                                <p>施华洛世奇</p>
+                            </a>
+                            <a><img src=https://img02.hua.com/m/category/Classification/m_category_gift_brand_MW.png>
+                                <p>施华洛世奇</p>
+                            </a>
+                            <a><img src="../images/image16.png">
+                                <p>施华洛世奇</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="giftsproducts">
+                    <!-- 页面渲染 -->
+                    <!-- <div class="fl-products-item">
+                        <a href="/product/1076062.html?huaPid=homepage-f501" target="_blank">
+                            <div class="img-box enlarge" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1076062.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1076062.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 星期耳钉礼盒</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1076062">239</span>
+                                </p>
+                                <p class="product-sell">已售 1771 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1087029.html?huaPid=homepage-f502" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1087029.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1087029.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 林深时见鹿/创意卡通小鹿小夜灯led实木台灯</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1087029">268</span>
+                                </p>
+                                <p class="product-sell">已售 99 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1065046.html?huaPid=homepage-f503" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1065046.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1065046.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 麋鹿水晶音乐盒/旋转蓝牙音箱</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1065046">296</span>
+                                </p>
+                                <p class="product-sell">已售 125 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1076098.html?huaPid=homepage-f504" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1076098.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1076098.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · Dior迪奥传奇红唇口红套装A款/999</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1076098">988</span>
+                                </p>
+                                <p class="product-sell">已售 15 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1076083.html?huaPid=homepage-f505" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1076083.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1076083.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · T400双C银项链女纯银锁骨链镶施华洛世奇锆</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1076083">259</span>
+                                </p>
+                                <p class="product-sell">已售 241 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1077027.html?huaPid=homepage-f506" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1077027.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1077027.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 猫王·原子唱机B612 蓝牙智能便携式音箱/粉色</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1077027">298</span>
+                                </p>
+                                <p class="product-sell">已售 139 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1070072.html?huaPid=homepage-f507" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1070072.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1070072.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · MUID化妆镜台灯 / 藕色</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1070072">169</span>
+                                </p>
+                                <p class="product-sell">已售 291 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1076103.html?huaPid=homepage-f508" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1076103.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1076103.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 施华洛世奇蓝色天鹅DANCING SWAN/125周年纪念款/镀白金色</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1076103">1599</span>
+                                </p>
+                                <p class="product-sell">已售 5 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1201003.html?huaPid=homepage-f509" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1201003.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1201003.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 奢悦之美巧克力礼盒</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1201003">158</span>
+                                </p>
+                                <p class="product-sell">已售 5164 件</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fl-products-item">
+                        <a href="/product/1204060.html?huaPid=homepage-f5010" target="_blank">
+                            <div class="img-box" href="/product/9010966.html">
+                                <img data-original="https://img01.hua.com/uploadpic/newpic/1204060.jpg_220x240.jpg" height="240" width="220" src="https://img01.hua.com/uploadpic/newpic/1204060.jpg_220x240.jpg" style="display: inline;">
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">礼品 · 德国进口LAUENSTEIN巧克力手工松露酒味夹心金装礼盒</p>
+                                <p class="product-price">
+                                    <span class="price-sign">¥</span>
+                                    <span class="price-num" data-pp="1204060">318</span>
+                                </p>
+                                <p class="product-sell">已售 125 件</p>
+                            </div> -->
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- 晒单评价 -->
+        <div class="newcomment">
+            <div class=comment>
+                <div class="commentcontainer">
+                    <div class=flower_title>
+                        <h3><a>晒单评价</a> <span>用户实拍晒单</span></h3><a>查看所有评价<span class=icon-arrow-right></span></a>
+                    </div>
+                    <div class=comment_content>
+
+                        <div class="f-comments-item">
+                            <a href="/product/5181042.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://img02.hua.com/pc/assets/img/avatar_default_09.jpg">
+                                        <span>刘*龙</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">非常好，特别喜欢，新颖时尚，味道好，椰味足，奶香，甜而不腻</p>
+                                        <div class="f-comments-item-time">
+                                            <p>北京昌平区</p>
+                                            <p>2020-06-24</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image17.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/9010928.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://img02.hua.com/pc/assets/img/avatar_default_05.jpg">
+                                        <span>杜*凡</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">很好 非常好</p>
+                                        <div class="f-comments-item-time">
+                                            <p>广东珠海市香洲区</p>
+                                            <p>2020-06-23</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image18.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/9012462.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJhYkAiaCVUIJTwI9Zh4Zibd8uIdz69CiaNErWhEJHl94OygEickZDq1tRwGicR7DFnicibGVXHGaARWWzbw/132">
+                                        <span>棵*妈</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">每次定的鲜花都如此美，而且快，妈妈很喜欢</p>
+                                        <div class="f-comments-item-time">
+                                            <p>湖南常德市鼎城区</p>
+                                            <p>2020-06-23</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image19.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/9012239.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJJ7Hl4XVfSibhsvMI9Z5GmyicIaNH44H6LIEmcvgx3pnsQ1H8zqmC6TSTBb7AVS27GpDibuRW1kJFUg/132">
+                                        <span>#M*#</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">很漂亮的花束哟</p>
+                                        <div class="f-comments-item-time">
+                                            <p>云南昆明市盘龙区</p>
+                                            <p>2020-06-23</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image20.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/5181097.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://img02.hua.com/pc/assets/img/avatar_default_04.jpg">
+                                        <span>王*壮</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">花朵居然是芸豆豆沙，味道很好，配送也快，每一款蛋糕颜值都很高。</p>
+                                        <div class="f-comments-item-time">
+                                            <p>北京昌平区</p>
+                                            <p>2020-06-22</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image21.jpeg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/9010811.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://img02.hua.com/pc/assets/img/avatar_default_09.jpg">
+                                        <span>赵*</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">今天的鲜花非常美丽，在恰当的时间送到，十分感谢花礼网。疫情期间送货员辛苦了！谢谢</p>
+                                        <div class="f-comments-item-time">
+                                            <p>北京大兴区</p>
+                                            <p>2020-06-22</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image22.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/9012217.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://img02.hua.com/pc/assets/img/avatar_default_05.jpg">
+                                        <span>许*士</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">花儿很新鲜！送货很准时！非常满意！</p>
+                                        <div class="f-comments-item-time">
+                                            <p>江苏无锡市梁溪区</p>
+                                            <p>2020-06-22</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image23.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="f-comments-item">
+                            <a href="/product/9012078.html" target="_blank">
+                                <div class="f-comments-item-l">
+                                    <div class="f-comments-item-user">
+                                        <img src="https://img02.hua.com/pc/assets/img/avatar_default_08.jpg">
+                                        <span>蛋糕*叔</span>
+                                    </div>
+                                    <div class="f-comments-item-info">
+                                        <p class="f-comments-item-content">好美的！！！！！</p>
+                                        <div class="f-comments-item-time">
+                                            <p>内蒙古通辽市科尔沁区</p>
+                                            <p>2020-06-22</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments-item-r">
+                                    <img src="../images/image24.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- 热门资讯 -->
+        <div class="newinformation">
+            <div class=information>
+                <div class=container>
+                    <div class=hotnews>
+                        <div class=hotnews-title>
+                            <h4>热门资讯</h4><a>更多 ></a>
+                        </div>
+                        <div class=hotnews-content>
+                            <ul>
+                                <li><a>毕业鲜花礼物</a></li>
+                                <li><a>巨蟹座鲜花礼物</a></li>
+                                <li><a>鲜花枝数对应含意</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                                <li><a>双子座鲜花礼物</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class=information-server>
+                        <li><a><span class=icon-information1></span><p>15年品牌</p></a></li>
+                        <li><a><span class=icon-information2></span><p>3小时配送</p></a></li>
+                        <li><a><span class=icon-information3></span><p>订单实拍</p></a></li>
+                        <li><a><span class=icon-information4></span><p>200%退赔承诺</p></a></li>
+                        <li><a><span class=icon-information1></span><p>销量领先</p></a></li>
+                        <li><a><span class=icon-information1></span><p>百万客户信赖</p></a></li>
+                        <li><a><span class=icon-information1></span><p>低价保障</p></a></li>
+                        <li><a><span class=icon-information1></span><p>时尚原创花艺</p></a></li>
+                    </ul>
+                    <div class=information_list>
+                        <div class=information-kh>
+                            <h4>客户服务</h4>
+                            <ul>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                                <li><a>服务声明</a></li>
+                            </ul>
+                        </div>
+                        <div class=information-infors>
+                            <h4>热门资讯</h4>
+                            <ul>
+                                <li><a>中国鲜花礼品网购物流程</a></li>
+                                <li><a>中国鲜花礼品网购物流程</a></li>
+                                <li><a>中国鲜花礼品网购物流程</a></li>
+                                <li><a>中国鲜花礼品网购物流程</a></li>
+                                <li><a>中国鲜花礼品网购物流程</a></li>
+                            </ul>
+                        </div>
+                        <div class=information-city>
+                            <h4>同城鲜花专区</h4>
+                            <ul>
+                                <li><a>深圳鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+                                <li><a>杭州鲜花</a></li>
+
+                            </ul>
+                        </div>
+                        <div class=information-callme>
+                            <h4>联系我们</h4>
+                            <div class=callme_content>
+                                <p>全国订购热线：400-889-8188(免长途费)</p>
+                                <p>E-mail: kefu@hua.com</p>
+                                <p>7x24小时在线订购</p>
+                                <p>客服工作时间：8:30-21:00</p>
+                            </div>
+                            <div class=callme-kf><a><span></span>在线客服</a></div>
+                        </div>
+                        <div class=information-qrcode>
+                            <div class=qrcode-item><img src="../images/image15.png">
+                                <p>扫码下载手机版</p>
+                            </div>
+                            <div class=qrcode-item><img src="../images/image14.png">
+                                <p>关注公众号有惊喜</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- quick -->
+        <div class="mui-mbar-tabs">
+            <div class="quick_links_wrap quick_links_dockright">
+                <div class="quick_link_mian">
+                    <div class="quick_links_panel">
+                        <div id="quick_links" class="quick_links">
+                            <li>
+                                <a href="login.html" class="my_qlinks"><i class="ico_user"></i></a>
+
+                                <div class="ibar_login_box" style="display: none;">
+                                    <div class="avatar_box" id="loginStats">
+                                        <p class="avatar_imgbox"><img src="../images/image13.jpg"></p>你好！请 <a href="/Passport/Login/?backUrl=https://www.hua.com/">登录</a> | <a href="reg.html">注册</a></div>
+                                    <div class="login_btnbox">
+                                        <a href="/Member/Order/"><i class="ico_order"></i>我的订单</a>
+                                    </div>
+                                    <i class="icon_arrow_right_white"></i>
+                                </div>
+                            </li>
+                            <li id="shopCart">
+                                <a href="cart.html" class="message_list"><i class="ico_cart"></i><div class="span">购物车</div><span class="cart_num" id="cart_num">0</span></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="history_list"><i class="ico_collect"></i></a>
+                                <div class="mp_tooltip" style="left: -150px; visibility: hidden;">
+                                    <a href="javascript:void(0)" class="history_list" style="color: #595656;font-size: 14px;width: 100%;background: #fff;border-radius: 3px 0 0 3px;">我的收藏</a>
+                                    <i class="icon_arrow_right_white"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="mpbtn_histroy"><i class="ico_histroy"></i></a>
+                                <div class="mp_tooltip" style="left: -150px; visibility: hidden;">
+                                    <a href="javascript:void(0)" class="mpbtn_histroy" style="color: #595656;font-size: 14px;width: 100%;background: #fff;border-radius: 3px 0 0 3px;">最近查看</a>
+                                    <i class="icon_arrow_right_white"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="leave_message"><i class="ico_phone"></i></a>
+                                <div class="mp_tooltip" style="left: -150px; visibility: hidden;"><span id="rightbartel">400-889-8188</span><i class="icon_arrow_right_white"></i></div>
+                            </li>
+                            <li>
+                                <a id="kefu" href="javascript:;" target="_blank" class="mpbtn_recharge"><i class="ico_headset"></i></a>
+                                <div class="mp_tooltip" style="left: -150px; visibility: hidden;">
+                                    <a id="kefu1" href="javascript:;" target="_blank" class="mpbtn_recharge1" style="color: #595656;font-size: 14px;width: 100%;background: #fff;border-radius: 3px 0 0 3px;" title="在线客服">
+                                        在线客服
+                                    </a>
+                                    <i class="icon_arrow_right_white"></i>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="quick_toggle quick_links_allow_gotop">
+                            <li>
+                                <a href="javascript:void(0)"><i class="ico_qrcode"></i></a>
+                                <div class="mp_qrcode" style="display: none;">
+                                    <p>
+                                        <img src="../images/image14.png" width="110" height="110"> 关注微信公众号
+                                    </p>
+                                    <p>
+                                        <img src="../images/image15.png" width="110" height="110"> 下载花礼APP
+                                    </p>
+                                    <i class="icon_arrow_right_white"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/Chat/FeedBack" class="mpbtn_recharge" target="_blank"><i class="ico_surveys"></i></a>
+                                <div class="mp_tooltip" style="left: -150px; visibility: hidden;"><a href="/Chat/FeedBack" class="mpbtn_recharge" style="color: #595656;font-size: 14px;width: 100%;background: #fff;border-radius: 3px 0 0 3px;" target="_blank">功能反馈</a><i class="icon_arrow_right_white"></i></div>
+                            </li>
+                            <li style="height:36px;margin-top:0px;">
+                                <a href="#top" class="return_top"><i class="ico_gotop"></i></a>
+                                <div class="mp_tooltip" style="left: -150px; visibility: hidden;">
+                                    <a href="#top" class="return_top" style="color: #595656;font-size: 14px;width: 100%;background: #fff;border-radius: 3px 0 0 3px;">返回顶部</a>
+                                    <i class="icon_arrow_right_white"></i>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="quick_links_pop" class="quick_links_pop hide"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-nav">
+                    <a href="">首页</a> <b>|</b>
+                    <a href="" target="_blank">关于我们</a> <b>|</b>
+                    <a href="" target="_blank">媒体报道</a> <b>|</b>
+                    <a href="" target="_blank">联系方式</a> <b>|</b>
+                    <a href="" target="_blank">企业团购</a> <b>|</b>
+                    <a href="" target="_blank">花店入驻</a><b>|</b>
+                    <a href="" target="_blank">友情链接</a> <b>|</b>
+                    <a href="" target="_blank">在线补款</a> <b>|</b>
+                    <a class="last-child" href="" target="_blank">为什么选择中国鲜花礼品网</a>
+                </div>
+                <div class="footer-middle">
+                    <a href="">中国花卉协会会员</a>
+                    <a href="">中国电子商务协会会员</a> ICP经营许可证：
+                    <a href="">粤B2-20050744</a>
+                    <b>|</b>
+                    <a href="" target="_blank">粤ICP备09171662号</a> <span class="icon-beian"></span>粤公网安备44030502000373号 Copyright © 2005-2020
+                    <p class="huali">花礼网 （中国鲜花礼品网） <a href="/">www.hua.com</a><span> 深圳市百易信息技术有限公司</span> 中国鲜花网领先品牌，鲜花速递专家！</p>
+                    <div class="footer-image">
+                        <span class="icon-wang"></span>
+                        <span class="icon-x"></span>
+                        <span class="icon-y"></span>
+                        <img src="../images/image12.png">
+                    </div>
+                </div>
+                <div class="footer-link">
+
+                    <span>友链</span>
+                    <a href="http://www.chinaname.cn/" target="_blank">中华取名网</a>
+                    <a href="http://sz.fang.com/" target="_blank">深圳房产网</a>
+                    <a href="http://www.juanpi.com" target="_blank">卷皮网</a>
+                    <a href="http://www.wbiao.cn" target="_blank">腕表</a>
+
+                    <a href="http://www.yuanlin365.com/" target="_blank">苗木</a>
+                    <a href="http://www.zocai.com/" target="_blank">佐卡伊珠宝网</a>
+                    <a href="http://www.blove.com/" target="_blank">钻石婚戒定制</a>
+
+                    <a href="http://www.iyijiao.com/" target="_blank">中国青少年艺术教育网</a>
+
+                    <a href="http://www.dog126.com/" target="_blank">淘狗网</a>
+                    <a href="http://www.liwuyou.com/" target="_blank">礼无忧网</a>
+                    <a href="http://www.goupuzi.com/" target="_blank">宠物狗</a>
+                    <a href="http://www.jiyouwang.com/" target="_blank">机友网</a>
+                    <a href="http://www.cocodiy.com/" target="_blank">礼物网</a>
+
+                    <a href="http://www.ipo3.com/" target="_blank">新三板</a>
+                    <a href="http://www.huoming.com/" target="_blank">商标注册</a>
+                    <a href="http://www.loho88.com" target="_blank">眼镜店</a>
+
+
+                </div>
+            </div>
+        </footer>
+        <script>
+            //懒加载核心：进入可视区加载图片。
+            //console.log($('img').offset().top);  //1224
+
+            $(window).on('scroll', function() {
+                let $imgtop = $('img').offset().top;
+                let $scrolltop = $(window).scrollTop();
+                let $clientheight = $(window).height();
+                if ($imgtop < $scrolltop + $clientheight) {
+                    $('img').attr('src', $('img').attr('_src'));
+                }
+            });
+        </script>
+    </body>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/lib/lunbo.js"></script>
+    <script src="../js/jquery.lazyload.js"></script>
+
+</html>
+</body>
+
+</html>
